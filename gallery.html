@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <style>
+
+    .image-gallery-row {
+        padding: 10px;
+    }
+    
+    .gHeading{
+      text-align: center;
+    }
+    .image-card {
+      overflow: hidden;
+      position: relative;
+    }
+
+    .image-card img {
+      max-width: 100%;
+      height: auto;
+      transition: transform 0.3s;
+    }
+
+    .image-card:hover img {
+      transform: scale(1.1);
+    }
+
+    body{
+      background-color: lightgreen;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class = "gHeading">Image Gallery</h1>
+    <div class="row align-items-center image-gallery-row">
+      <div class="col text-center mb-4">
+        <div class="card image-card">
+          <img src="Gallery Images/App Interface.jpeg" class="card-img-top" alt="Image 1">
+        </div>
+      </div>
+      <div class="col text-center mb-4">
+        <div class="card image-card">
+          <img src="Gallery Images/Interface 2.jpeg" class="card-img-top" alt="Image 2">
+        </div>
+      </div>
+      <div class="col text-center mb-4">
+        <div class="card image-card">
+          <img src="Gallery Images/interface 3.png
+          " class="card-img-top" alt="Image 3">
+        </div>
+      </div>
+      <div class="col text-center mb-4">
+        <div class="card image-card">
+          <img src="Gallery Images/interface 4.jpg" class="card-img-top" alt="Image 4">
+        </div>
+      </div>
+      <div class="col text-center mb-4">
+        <div class="card image-card">
+          <img src="Gallery Images/interface 5.jpg" class="card-img-top" alt="Image 5">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
